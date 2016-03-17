@@ -1,0 +1,9 @@
+﻿  MySQL.cpp
+MySQL.cpp(44): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+MySQL.cpp(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+MySQL.cpp(109): warning C4101: 'ex': unreferenced local variable
+MySQL.cpp(131): warning C4101: 'ex': unreferenced local variable
+MySQL.cpp(155): warning C4101: 'ex': unreferenced local variable
+  MQTTV3Sample.vcxproj -> C:\MQTT\sdkroot\SDK\clients\c\samples\Debug\MQTTV3Sample.exe
