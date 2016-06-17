@@ -34,6 +34,9 @@ public:
 	MQTTApp(int opt, String^ topic, String^ mess);
 	~MQTTApp();
 	int Subscribe(char* brokerUrl, char* clientId, char* topicName, int qos); 
-	int Publish(char* brokerUrl, char* clientId, char* topicName, int qos, char* message);
+	//int Publish(char* brokerUrl, char* clientId, char* topicName, int qos, char* message);
+
+	int MQTTApp::Publish(MQTTClient client, char*topicName, char * message);
+
 	char* getMessage();
 };
